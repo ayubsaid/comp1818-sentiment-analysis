@@ -1,0 +1,27 @@
+,Accuracy,Macro-F1
+IMDb | Majority class,0.5,0.3333
+IMDb | Random guess,0.5026,0.5026
+Yelp-1 | Majority class,0.5016,0.334
+Yelp-1 | Random guess,0.5039,0.5039
+IMDb | VADER (threshold 0),0.6973,0.6886
+IMDb | VADER (tuned),0.7258,0.7257
+IMDb | TF-IDF + LR (default),0.9007,0.9007
+IMDb | TF-IDF + LR (tuned),0.9023,0.9023
+IMDb | Hybrid (feature-level),0.9015,0.9015
+IMDb | Hybrid (stacking),0.903,0.903
+Yelp-1 | VADER (tuned),0.7753,0.7748
+Yelp-1 | TF-IDF + LR (tuned),0.8444,0.8438
+Yelp-1 | Hybrid (feature-level),0.8668,0.8664
+Yelp-1 | Hybrid (stacking),0.8455,0.8448
+Yelp-2 | VADER (tuned),0.7719,0.7713
+Yelp-2 | TF-IDF + LR (tuned),0.8458,0.8452
+Yelp-2 | Hybrid (feature-level),0.8665,0.8662
+Yelp-2 | Hybrid (stacking),0.8469,0.8462
+Sub IMDb | DistilBERT (SST-2),0.894,0.8938
+Sub IMDb | VADER (tuned),0.744,0.7439
+Sub IMDb | TF-IDF + LR,0.92,0.9198
+Sub IMDb | Hybrid,0.908,0.9077
+Sub Yelp-1 | DistilBERT (SST-2),0.916,0.916
+Sub Yelp-1 | VADER (tuned),0.778,0.7757
+Sub Yelp-1 | TF-IDF + LR,0.85,0.8477
+Sub Yelp-1 | Hybrid,0.904,0.9032

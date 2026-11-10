@@ -1,0 +1,13 @@
+Test set,Model A,Model B,Only A right,Only B right,p-value
+IMDb,TF-IDF + LR (tuned),VADER (tuned),5549,1138,0.0
+IMDb,TF-IDF + LR (tuned),Hybrid (feature-level),393,374,0.5157559071800691
+IMDb,TF-IDF + LR (tuned),Hybrid (stacking),161,180,0.32968832892434013
+IMDb,Hybrid (stacking),Hybrid (feature-level),338,300,0.14290368460483896
+Yelp-1,TF-IDF + LR (tuned),VADER (tuned),1623,932,6.229077180672083e-43
+Yelp-1,TF-IDF + LR (tuned),Hybrid (feature-level),207,431,4.598077240749351e-19
+Yelp-1,TF-IDF + LR (tuned),Hybrid (stacking),81,92,0.4471778770995295
+Yelp-1,Hybrid (stacking),Hybrid (feature-level),183,396,4.984053094387156e-19
+Yelp-2,TF-IDF + LR (tuned),VADER (tuned),1618,879,4.485471918915508e-50
+Yelp-2,TF-IDF + LR (tuned),Hybrid (feature-level),218,425,2.5069736639180573e-16
+Yelp-2,TF-IDF + LR (tuned),Hybrid (stacking),88,99,0.46470690460290404
+Yelp-2,Hybrid (stacking),Hybrid (feature-level),184,380,1.0834830154507496e-16
