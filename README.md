@@ -1,2 +1,20 @@
 # comp1818-sentiment-analysis
-How to run it (open in Colab, Restart and run all), and where the data comes from. IMDb is stanfordnlp/imdb and Yelp is fancyzhx/yelp_polarity on Hugging Face. The notebook downloads both automatically, so you don’t upload the datasets. Enjoy !!!
+COMP1818 Coursework: Symbolic vs ML vs Hybrid Sentiment Analysis
+
+Comparing VADER (rule-based), TF-IDF + logistic regression (machine learning)
+and two hybrids on movie reviews (IMDb), then testing on Yelp reviews.
+
+## How to run
+1. Open `sentiment_coursework.ipynb` in Google Colab.
+2. Runtime -> Restart session and run all (CPU is enough, about 25-40 minutes).
+3. Figures and tables are saved to the `outputs/` folder.
+
+## Data (downloaded automatically, nothing to upload)
+- IMDb: `stanfordnlp/imdb` on Hugging Face (Maas et al., 2011)
+- Yelp polarity: `fancyzhx/yelp_polarity` on Hugging Face (Zhang et al., 2015)
+
+## Files
+- `sentiment_coursework.ipynb`: full pipeline with results
+- `outputs/`: figures (PDF) and result tables (CSV)
+
+Thanks for testing my work, enjoy your time!
