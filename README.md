@@ -6,6 +6,6 @@
 
 # Files
 - `sentiment_coursework.ipynb`: full pipeline with results
-- `*.pdf` and `*.csv` in this files: copies of the figures and result tables from the final run
+- `*.pdf` and `*.csv` in this folder: copies of the figures and result tables from the final run
 
 Thanks for testing my work, enjoy your time!
