@@ -8,7 +8,6 @@
 - `sentiment_coursework.ipynb`: full pipeline with results
 - `*.pdf` and `*.csv` in this folder: copies of the figures and result tables from the final run
 
-Thanks for testing my work, enjoy your time!
 
 ## Data (downloaded automatically)
 - IMDb: huggingface.co/datasets/stanfordnlp/imdb
@@ -19,3 +18,7 @@ Thanks for testing my work, enjoy your time!
 hybrid models and chosen settings. Load it with
 `models = joblib.load("trained_models.joblib")`. It was saved with
 scikit-learn 1.6.1; the notebook can retrain everything from scratch.
+
+
+1818 Coursework report - Ayub Saidnazir
+Student ID: 001402184
