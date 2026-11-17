@@ -9,3 +9,13 @@
 - `*.pdf` and `*.csv` in this folder: copies of the figures and result tables from the final run
 
 Thanks for testing my work, enjoy your time!
+
+## Data (downloaded automatically)
+- IMDb: huggingface.co/datasets/stanfordnlp/imdb
+- Yelp polarity: huggingface.co/datasets/fancyzhx/yelp_polarity
+
+## Trained models
+`trained_models.joblib` holds the trained TF-IDF vectoriser, logistic regression,
+hybrid models and chosen settings. Load it with
+`models = joblib.load("trained_models.joblib")`. It was saved with
+scikit-learn 1.6.1; the notebook can retrain everything from scratch.
